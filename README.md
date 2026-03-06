@@ -27,9 +27,9 @@ This repository, when used on a Cloudflare Worker, automates the process of sync
     npm install
     ```
 
-3. Configure your environment variables in `wrangler.toml` or using Wrangler secrets:
+3. Configure your environment variables using Wrangler secrets:
     ```bash
-    wrangler secret put WEBHOOK_SECREt
+    wrangler secret put WEBHOOK_SECRET
     wrangler secret put SOLIDARITY_TECH_API_KEY
     ```
 
