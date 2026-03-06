@@ -1,0 +1,11 @@
+name = "an-to-solidaritytech-sync"
+main = "src/index.js"
+compatibility_date = "2024-01-01"
+
+[observability]
+[observability.logs]
+enabled = true
+invocation_logs = true
+
+# Set these secrets via: wrangler secret put SOLIDARITY_TECH_API_KEY
+# and: wrangler secret put WEBHOOK_SECRET
