@@ -16,11 +16,7 @@ This repository, when used on a Cloudflare Worker, automates the process of sync
 
 ## Setup
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/an-to-solidaritytech-sync.git
-    cd an-to-solidaritytech-sync
-    ```
+1. Clone the repository
 
 2. Install dependencies:
     ```bash
