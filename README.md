@@ -4,7 +4,7 @@ A script for synchronizing data between Action Network and Solidarity Tech.
 
 ## Overview
 
-This repository, when used on a Cloudflare Worker, automates the process of syncing contact and campaign data from Action Network to Solidarity Tech for a specific Binghamton YDSA letter writing campaign (but can be modified for any project).
+This repository, when used on a Cloudflare Worker, automates the process of syncing contact and campaign data from Action Network to Solidarity Tech for a specific letter-writing campaign (but can be modified for any project).
 
 ## Prerequisites
 
