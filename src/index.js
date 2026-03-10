@@ -56,6 +56,7 @@ async function processPayload(payload, env) {
     const involvedField = (person.custom_fields || {})["Would you like to get involved with our campaign to kick ICE out of our campus and community? _Yes"];
     if (involvedField) {
       petitionValues.push("Checked get involved box");
+      stUser.add_tags.push("Add to Welcome Automation");
     }
     if (!stUser.custom_user_properties) stUser.custom_user_properties = {};
     stUser.custom_user_properties["anti-ice-petition"] = petitionValues;
